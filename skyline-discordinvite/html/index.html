@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Invite Menü</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header class="header">
+            <h1>Discord Szerverek</h1>
+            <p class="welcome-message">Üdvözöllek, <span id="player-name">Játékos</span>!</p>
+        </header>
+        
+        <main class="server-grid">
+            <div class="server-card" data-action="rp">
+                <div class="server-icon">
+                    <span class="icon-text">RP</span>
+                    <img class="icon-image" src="" alt="RP Icon" style="display: none;">
+                </div>
+                <h3>RolePlay Szerver</h3>
+                <p>RolePlay</p>
+                <button class="join-button">Csatlakozás</button>
+            </div>
+            
+            <div class="server-card" data-action="military">
+                <div class="server-icon">
+                    <span class="icon-text">MIL</span>
+                    <img class="icon-image" src="" alt="Military Icon" style="display: none;">
+                </div>
+                <h3>Military Szerver</h3>
+                <p>Military</p>
+                <button class="join-button">Csatlakozás</button>
+            </div>
+            
+            <div class="server-card" data-action="ub">
+                <div class="server-icon">
+                    <span class="icon-text">UB</span>
+                    <img class="icon-image" src="" alt="UB Icon" style="display: none;">
+                </div>
+                <h3>Unban Szerver</h3>
+                <p>UB Kérelem</p>
+                <button class="join-button">Csatlakozás</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
